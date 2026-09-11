@@ -17,4 +17,4 @@ def test_addition():
 
 def test_addition_failing():
     calc = Calculator()
-    assert calc.addition(2, 2) == 5
+    assert calc.addition(2, 2) == 4 #changed from 5 to 4
